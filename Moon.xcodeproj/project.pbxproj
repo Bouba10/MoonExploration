@@ -51,7 +51,6 @@
 		103B7C972A43707200C0CE0C = {
 			isa = PBXGroup;
 			children = (
-				103B7CBF2A44CCD000C0CE0C /*  AstronautView.swift */,
 				103B7CA22A43707200C0CE0C /* Moon */,
 				103B7CA12A43707200C0CE0C /* Products */,
 			);
@@ -69,10 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				103B7CA32A43707200C0CE0C /* MoonApp.swift */,
+				103B7CC12A44DB7500C0CE0C /* View */,
 				103B7CB72A4454FA00C0CE0C /* Bundle-Decodable.swift */,
-				103B7CA52A43707200C0CE0C /* ContentView.swift */,
 				103B7CBB2A446C9500C0CE0C /* Color-Theme.swift */,
-				103B7CBD2A44723300C0CE0C /* MissionView.swift */,
 				103B7CB92A445AAF00C0CE0C /* Mission.swift */,
 				103B7CB52A4453BA00C0CE0C /* Astronaut.swift */,
 				103B7CB12A4452A300C0CE0C /* astronauts.json */,
@@ -89,6 +87,16 @@
 				103B7CAA2A43707400C0CE0C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		103B7CC12A44DB7500C0CE0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				103B7CA52A43707200C0CE0C /* ContentView.swift */,
+				103B7CBF2A44CCD000C0CE0C /*  AstronautView.swift */,
+				103B7CBD2A44723300C0CE0C /* MissionView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
